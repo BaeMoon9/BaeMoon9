@@ -1,4 +1,4 @@
-## 👋&nbsp; Hi there! I'm Bae Moon Gue
+## 👋&nbsp; Hi I'm Bae Moon Gue
 <!--
 **BaeMoon9/BaeMoon9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
