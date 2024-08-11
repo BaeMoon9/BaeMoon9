@@ -13,6 +13,7 @@ function Main(){
 				{/* 스크린 타입은 {screenType} 입니다.
 				스크린 크기는 {screenWidth} 입니다. */}
 				<About />
+				<Divider screenType={screenType}/>
  		</Container>
 	)
 }
@@ -26,4 +27,19 @@ const Container = styled.div<{screenType : string}>`
 		(props.screenType === 'Tablet' ? '600px' : '450px')
 	)};
 	align-items: center;
+`
+
+const Divider = styled.hr<{screenType : string}>`
+	width: ${(props) => (props.screenType === 'Pc' ? '1100px' :
+		(props.screenType === 'Tablet' ? '800px' : '400px')
+	)};
+	border: 0px;
+  border-top: 1px solid;
+  margin-top: ${(props) => (props.screenType === 'Pc' ? '20px' :
+		(props.screenType === 'Tablet' ? '15px' : '10px')
+	)};
+  margin-bottom: ${(props) => (props.screenType === 'Pc' ? '20px' :
+		(props.screenType === 'Tablet' ? '15px' : '10px')
+	)};
+	color: lightgray;
 `

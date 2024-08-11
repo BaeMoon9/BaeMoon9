@@ -70,15 +70,15 @@ const Container = styled.div<{screenType : string}>`
 		(props.screenType === 'Tablet' ? '600px' : '450px')
 	)};
 	
-	background-color: lightyellow;
+	
 `
 
 const TitleContent = styled.div<{screenType : string}>`
 	flex-direction: row;
-	background-color: lightblue;
+	
 	flex-wrap: wrap;
 	min-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
-		(props.screenType === 'Tablet' ? '250px' : '400px')
+		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
 	max-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
 		(props.screenType === 'Tablet' ? '400px' : '400px')
@@ -88,7 +88,7 @@ const TitleContent = styled.div<{screenType : string}>`
 
 const ContactContent = styled.div<{screenType : string}>`
 	flex-direction: row;
-	background-color : lightgreen;
+	
 	min-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
@@ -109,6 +109,7 @@ const Content = styled.div`
 	flex-direction: column;
 	font-weight: bold;
 	line-height: 1.7;
+	
 `
 
 const ContactName = styled.span`
@@ -116,4 +117,6 @@ const ContactName = styled.span`
 	font-size: 1.1em;
 	color: #1f4596;
 `
+
+
 
