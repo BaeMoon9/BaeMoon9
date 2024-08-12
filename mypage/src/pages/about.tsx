@@ -36,9 +36,9 @@ function About() {
 					About Me
 				</Title>
 				<Content>
-					안녕하세요 프론트엔드 개발자가 되고싶은 배문규입니다.<br />
-					제 페이지를 방문해주셔서 감사합니다.<br />
-					123123123123123123123123123123123123123123
+					안녕하세요 프론트엔드 개발자 배문규입니다.<br />
+					현재 대학교 학과에서 근무하고 있습니다.<br />
+					
 				</Content>
 			</TitleContent>
 			<ContactContent screenType={screenType}>
@@ -47,7 +47,7 @@ function About() {
 				</Title>
 				<Content>
 					{Contacts.map((contact, idx) => (
-          <div key={idx} className="break-all">
+          <div key={idx}>
             <ContactName>{contact.name}</ContactName>&nbsp;
             <a href={contact.link}>{contact.text || contact.link}</a>
           </div>
@@ -70,7 +70,6 @@ const Container = styled.div<{screenType : string}>`
 		(props.screenType === 'Tablet' ? '600px' : '450px')
 	)};
 	
-	
 `
 
 const TitleContent = styled.div<{screenType : string}>`
@@ -83,6 +82,7 @@ const TitleContent = styled.div<{screenType : string}>`
 	max-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
+	background-color: lightblue;
 	
 `
 
@@ -95,12 +95,13 @@ const ContactContent = styled.div<{screenType : string}>`
 	max-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
+	background-color: lightgreen;
 	
 `
 
 const Title = styled.h2`
 	font-size: 1.5em;
-  font-weight: bold;
+  	font-weight: bold;
 	color: #1f4596;
 `
 
@@ -109,6 +110,7 @@ const Content = styled.div`
 	flex-direction: column;
 	font-weight: bold;
 	line-height: 1.7;
+	margin-left: 4px;
 	
 `
 

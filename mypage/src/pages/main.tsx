@@ -1,8 +1,10 @@
 import React from "react";
 import useScreenSize from "../hooks/screenSize";
 import styled from "styled-components";
-import { stringify } from "querystring";
 import About from "./about";
+import Skill from "./skill";
+import Education from "./education";
+import Experience from "./experience";
 
 function Main(){
 
@@ -14,6 +16,11 @@ function Main(){
 				스크린 크기는 {screenWidth} 입니다. */}
 				<About />
 				<Divider screenType={screenType}/>
+				<Skill />
+				<Divider screenType={screenType}/>
+				<Education />
+				<Divider screenType={screenType}/>
+				<Experience />
  		</Container>
 	)
 }
@@ -23,10 +30,11 @@ export default Main;
 const Container = styled.div<{screenType : string}>`
 	display: flex;
 	flex-direction: column;
-	min-width: ${(props) => (props.screenType === 'Pc' ? '1280px' :
+	min-width: ${(props) => (props.screenType === 'Pc' ? '1200px' :
 		(props.screenType === 'Tablet' ? '600px' : '450px')
 	)};
 	align-items: center;
+	background-color: yellow;
 `
 
 const Divider = styled.hr<{screenType : string}>`
