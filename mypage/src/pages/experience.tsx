@@ -18,7 +18,9 @@ function Experience() {
 				<>
 					독서 장려 애플리케이션 '읽기장' 프로젝트로 장려상을 수상했습니다. <br />
 					프론트엔드 부분을 맡아 React-Native로 UI를 제작하였습니다.<br />
-					<a href="https://www.youtube.com/watch?v=8rDKsbk1xuQ&list=PLwWUOs74Y2rJxDaK2EeHyXxZjFszMfPXe&index=29">'읽기장' 소개영상</a>
+					<a href="https://www.youtube.com/watch?v=8rDKsbk1xuQ&list=PLwWUOs74Y2rJxDaK2EeHyXxZjFszMfPXe&index=29"
+						style={{ textDecoration: "none" }}
+					>('읽기장' 소개영상)</a>
 				</>
 			)
 		},
@@ -30,7 +32,9 @@ function Experience() {
 					좋은 기회로 태국 방콕 기술 전시회에 참여하였습니다.< br/>
 					음식물 상태 확인이 가능한 '셀프 반찬통' 프로젝트에 참여하였습니다.<br />
 					프론트엔드 부분을 맡아 React-Native로 UI를 제작하였습니다.<br />
-					<a href="https://www.nspna.com/country/?mode=view&newsid=622828">전시회 체험수기 발표회</a>
+					<a href="https://www.nspna.com/country/?mode=view&newsid=622828"
+					style={{ textDecoration: "none" }}
+					>(전시회 체험수기 발표회)</a>
 				</>
 			),
 		},
@@ -50,7 +54,7 @@ const { screenWidth, screenHeight, screenType, isLoaded } = useScreenSize()
 return (
 	<Container screenType={screenType}>
 		<SkillContent screenType={screenType}>
-			<Title>Experience</Title>
+			<Title>Experience & Projects</Title>
 			<Content>
 				{Contacts.map((contact, idx) => (
 					<MyExperience key={idx}>
@@ -119,18 +123,19 @@ const ExperienceTitle = styled.div<{ screenType: string }>`
 	max-width: ${(props) => (props.screenType === 'Pc' ? '250px' :
 		(props.screenType === 'Tablet' ? '200px' : '200px')
 	)};
+	margin-right: 10px;
 
 `
 
 const ExperienceContent = styled.div<{ screenType: string }>`
-    min-width: ${(props) => (props.screenType === 'Pc' ? '400px' :
+    	min-width: ${(props) => (props.screenType === 'Pc' ? '400px' :
 		(props.screenType === 'Tablet' ? '400px' : '300px')
 	)};
 		max-width: ${(props) => (props.screenType === 'Pc' ? '600px' :
 		(props.screenType === 'Tablet' ? '450px' : '300px')
 	)};
-		background-color: blue;
-    word-wrap: break-word;
+		background-color: white;
+   		word-wrap: break-word;
 
 `
 
