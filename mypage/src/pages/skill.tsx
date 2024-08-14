@@ -27,7 +27,7 @@ const Container = styled.div<{screenType : string}>`
 	min-width: ${(props) => (props.screenType === 'Pc' ? '1100px' :
 		(props.screenType === 'Tablet' ? '600px' : '400px')
 	)};
-    background-color: gray;
+    
 `
 
 const SkillContent = styled.div<{screenType : string}>`
@@ -40,7 +40,7 @@ const SkillContent = styled.div<{screenType : string}>`
 	max-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
-	background-color: lightblue;
+	
 	
 `
 

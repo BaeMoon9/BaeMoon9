@@ -34,7 +34,8 @@ const Container = styled.div<{screenType : string}>`
 		(props.screenType === 'Tablet' ? '600px' : '450px')
 	)};
 	align-items: center;
-	background-color: yellow;
+	margin-bottom: 40px;
+	
 `
 
 const Divider = styled.hr<{screenType : string}>`
@@ -42,12 +43,12 @@ const Divider = styled.hr<{screenType : string}>`
 		(props.screenType === 'Tablet' ? '800px' : '400px')
 	)};
 	border: 0px;
-  border-top: 1px solid;
-  margin-top: ${(props) => (props.screenType === 'Pc' ? '20px' :
+ 	border-top: 1px solid;
+	border-color: lightgray;
+  	margin-top: ${(props) => (props.screenType === 'Pc' ? '20px' :
 		(props.screenType === 'Tablet' ? '15px' : '10px')
 	)};
-  margin-bottom: ${(props) => (props.screenType === 'Pc' ? '20px' :
+  	margin-bottom: ${(props) => (props.screenType === 'Pc' ? '20px' :
 		(props.screenType === 'Tablet' ? '15px' : '10px')
 	)};
-	color: lightgray;
 `

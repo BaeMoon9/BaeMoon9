@@ -19,7 +19,7 @@ function Experience() {
 					독서 장려 애플리케이션 '읽기장' 프로젝트로 장려상을 수상했습니다. <br />
 					프론트엔드 부분을 맡아 React-Native로 UI를 제작하였습니다.<br />
 					<a href="https://www.youtube.com/watch?v=8rDKsbk1xuQ&list=PLwWUOs74Y2rJxDaK2EeHyXxZjFszMfPXe&index=29"
-						style={{ textDecoration: "none" }}
+						style={{ color: "lightslategray" }}
 					>('읽기장' 소개영상)</a>
 				</>
 			)
@@ -33,16 +33,33 @@ function Experience() {
 					음식물 상태 확인이 가능한 '셀프 반찬통' 프로젝트에 참여하였습니다.<br />
 					프론트엔드 부분을 맡아 React-Native로 UI를 제작하였습니다.<br />
 					<a href="https://www.nspna.com/country/?mode=view&newsid=622828"
-					style={{ textDecoration: "none" }}
+					style={{ color: "lightslategray" }}
 					>(전시회 체험수기 발표회)</a>
 				</>
 			),
 		},
 		{
-			name: "Velog",
-			date: "323",
+			name: "노트북 대여",
+			date: "2024.03~2024.05",
 			text: (
 				<>
+					대학교 학과 내 노트북을 재학생에게 대여 및 관리하는 페이지 입니다.< br/>
+					첫 개인 프로젝트인만큼 부족함과 개선해야할 점이 많은 프로젝트입니다.< br/>
+					<a href="https://github.com/BaeMoon9/laptop"
+					style={{ color: "lightslategray"}}
+					>(Github - laptop)</a>
+				</>
+			),
+		},
+		{
+			name: "포트폴리오",
+			date: "2024.08~",
+			text: (
+				<>
+					지금 현재 페이지인 포트폴리오 페이지 입니다.< br/>
+					<a href="https://github.com/BaeMoon9/BaeMoon9"
+					style={{ color: "lightslategray"}}
+					>(Github - BaeMoon9)</a>
 				</>
 			),
 		}
@@ -74,7 +91,7 @@ const Container = styled.div<{ screenType: string }>`
 	min-width: ${(props) => (props.screenType === 'Pc' ? '1100px' :
 		(props.screenType === 'Tablet' ? '600px' : '400px')
 	)};
-    background-color: gray;
+    
 `
 
 const SkillContent = styled.div<{ screenType: string }>`
@@ -87,7 +104,7 @@ const SkillContent = styled.div<{ screenType: string }>`
 	max-width: ${(props) => (props.screenType === 'Pc' ? '800px' :
 		(props.screenType === 'Tablet' ? '500px' : '400px')
 	)};
-	background-color: lightblue;
+	
 	
 `
 
@@ -112,8 +129,8 @@ const MyExperience = styled.div`
     display: flex;
     flex-direction: row;
 		flex-wrap: wrap;
-		margin-top: 2px;
-		margin-bottom: 2px;
+		margin-top: 5px;
+		margin-bottom: 20px;
 `
 
 const ExperienceTitle = styled.div<{ screenType: string }>`
@@ -134,7 +151,6 @@ const ExperienceContent = styled.div<{ screenType: string }>`
 		max-width: ${(props) => (props.screenType === 'Pc' ? '600px' :
 		(props.screenType === 'Tablet' ? '450px' : '300px')
 	)};
-		background-color: white;
    		word-wrap: break-word;
 
 `

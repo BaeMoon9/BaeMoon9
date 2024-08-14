@@ -49,7 +49,7 @@ function About() {
 					{Contacts.map((contact, idx) => (
           <div key={idx}>
             <ContactName>{contact.name}</ContactName>&nbsp;
-            <a href={contact.link}>{contact.text || contact.link}</a>
+            <a href={contact.link} style={{ color: "lightslategray"}}>{contact.text || contact.link}</a>
           </div>
         ))}
 				</Content>
@@ -82,7 +82,7 @@ const TitleContent = styled.div<{screenType : string}>`
 	max-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
-	background-color: lightblue;
+	
 	
 `
 
@@ -95,7 +95,7 @@ const ContactContent = styled.div<{screenType : string}>`
 	max-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
-	background-color: lightgreen;
+	
 	
 `
 
