@@ -1,20 +1,33 @@
+/* eslint-disable */
 import React from 'react';
 import './App.css';
 import Main from './pages/main';
 import styled from 'styled-components';
 import useScreenSize from './hooks/screenSize';
 import { Routes, Route } from 'react-router-dom'
+import { BrowserView, MobileView } from 'react-device-detect'
 
 function App() {
 
 	const { screenWidth, screenHeight, screenType, isLoaded } = useScreenSize()
 
   return (
-    	<Container screenType={screenType}>
+	<>
+		<BrowserView>
+		<Container screenType={screenType}>
 			<Routes>
 				<Route path="/" element={<Main />} />
 			</Routes>
 		</Container>
+		</BrowserView>
+		<MobileView>
+			<Container screenType={screenType}>
+			<Routes>
+				<Route path="/" element={<Main />} />
+			</Routes>
+		</Container>
+		</MobileView>
+	</> 	
   );
 }
 

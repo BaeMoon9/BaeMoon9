@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 function Skill () {
 
-    const { screenWidth, screenHeight, screenType, isLoaded } = useScreenSize()
+    const { screenType } = useScreenSize()
 
 
     return(

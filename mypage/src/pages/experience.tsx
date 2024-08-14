@@ -66,7 +66,7 @@ function Experience() {
 		}
 	]
 
-const { screenWidth, screenHeight, screenType, isLoaded } = useScreenSize()
+const { screenType } = useScreenSize()
 
 
 return (
@@ -120,10 +120,6 @@ const Content = styled.div`
 	flex-direction: column;
 	font-weight: bold;
 	line-height: 1.7;
-`
-const ContentLi = styled.li`
-    margin-left: 4px;
-    list-style-type: none;
 `
 
 const MyExperience = styled.div`

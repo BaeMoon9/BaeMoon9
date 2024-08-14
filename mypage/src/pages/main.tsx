@@ -8,7 +8,7 @@ import Experience from "./experience";
 
 function Main(){
 
-	const { screenWidth, screenHeight, screenType, isLoaded } = useScreenSize()
+	const { screenType } = useScreenSize()
 
 	return(
 		<Container screenType={screenType}>
@@ -31,7 +31,7 @@ const Container = styled.div<{screenType : string}>`
 	display: flex;
 	flex-direction: column;
 	min-width: ${(props) => (props.screenType === 'Pc' ? '1200px' :
-		(props.screenType === 'Tablet' ? '600px' : '450px')
+		(props.screenType === 'Tablet' ? '600px' : '400px')
 	)};
 	align-items: center;
 	margin-bottom: 40px;

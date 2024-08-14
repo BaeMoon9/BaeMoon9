@@ -27,7 +27,7 @@ function About() {
 		}
 	]
 
-	const { screenWidth, screenHeight, screenType, isLoaded } = useScreenSize()
+	const  { screenType } = useScreenSize()
 
 	return(
 		<Container screenType={screenType}>
