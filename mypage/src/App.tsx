@@ -10,7 +10,7 @@ function App() {
 	const { screenWidth, screenHeight, screenType, isLoaded } = useScreenSize()
 
   return (
-    <Container screenType={screenType}>
+    	<Container screenType={screenType}>
 			<Routes>
 				<Route path="/" element={<Main />} />
 			</Routes>
