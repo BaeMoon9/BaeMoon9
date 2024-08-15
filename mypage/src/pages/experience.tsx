@@ -107,6 +107,7 @@ const SkillContent = styled.div<{ screenType: string }>`
 	)};
 	
 	
+	
 `
 
 const Title = styled.h2`
@@ -146,9 +147,10 @@ const ExperienceContent = styled.div<{ screenType: string }>`
 		(props.screenType === 'Tablet' ? '400px' : '300px')
 	)};
 		max-width: ${(props) => (props.screenType === 'Pc' ? '600px' :
-		(props.screenType === 'Tablet' ? '450px' : '300px')
+		(props.screenType === 'Tablet' ? '450px' : '400px')
 	)};
    		word-wrap: break-word;
+			
 
 `
 
