@@ -5,6 +5,7 @@ import About from "./about";
 import Skill from "./skill";
 import Education from "./education";
 import Experience from "./experience";
+import Etc from "./etc";
 
 function Main(){
 
@@ -21,6 +22,8 @@ function Main(){
 				<Education />
 				<Divider screenType={screenType}/>
 				<Experience />
+				<Divider screenType={screenType}/>
+				<Etc />
  		</Container>
 	)
 }
