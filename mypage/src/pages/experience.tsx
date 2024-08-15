@@ -44,7 +44,9 @@ function Experience() {
 			text: (
 				<>
 					대학교 학과 내 노트북을 재학생에게 대여 및 관리하는 페이지 입니다.< br/>
-					첫 개인 프로젝트인만큼 부족함과 개선해야할 점이 많은 프로젝트입니다.< br/>
+					React 기반 웹 페이지로 Nodejs, MariaDB를 이용하여 노트북의 정보를 관리하고 있습니다.<br />
+					개인적으로 반응형 css의 부재와 redux를 이용한 state관리가 없다는것이 아쉬웠습니다.< br/>
+					첫 개인 프로젝트인만큼 부족함과 개선해야할 점이 많은 프로젝트입니다.<br />
 					<a href="https://github.com/BaeMoon9/laptop"
 					style={{ color: "lightslategray"}}
 					>(Github - laptop)</a>
@@ -57,6 +59,7 @@ function Experience() {
 			text: (
 				<>
 					지금 현재 페이지인 포트폴리오 페이지 입니다.< br/>
+					Typescript, React, styled-component를 사용하였습니다.<br />
 					
 					<a href="https://github.com/BaeMoon9/BaeMoon9"
 					style={{ color: "lightslategray"}}
@@ -92,7 +95,6 @@ const Container = styled.div<{ screenType: string }>`
 	min-width: ${(props) => (props.screenType === 'Pc' ? '1100px' :
 		(props.screenType === 'Tablet' ? '600px' : '400px')
 	)};
-    
 `
 
 const SkillContent = styled.div<{ screenType: string }>`
@@ -102,8 +104,8 @@ const SkillContent = styled.div<{ screenType: string }>`
 	min-width: ${(props) => (props.screenType === 'Pc' ? '600px' :
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
-	max-width: ${(props) => (props.screenType === 'Pc' ? '800px' :
-		(props.screenType === 'Tablet' ? '500px' : '400px')
+	max-width: ${(props) => (props.screenType === 'Pc' ? '1050px' :
+		(props.screenType === 'Tablet' ? '660px' : '400px')
 	)};
 	
 	
@@ -129,6 +131,7 @@ const MyExperience = styled.div`
 		flex-wrap: wrap;
 		margin-top: 5px;
 		margin-bottom: 20px;
+		
 `
 
 const ExperienceTitle = styled.div<{ screenType: string }>`
@@ -137,8 +140,9 @@ const ExperienceTitle = styled.div<{ screenType: string }>`
 	)};
 	max-width: ${(props) => (props.screenType === 'Pc' ? '250px' :
 		(props.screenType === 'Tablet' ? '200px' : '200px')
-	)};
+	)}
 	margin-right: 10px;
+	
 
 `
 
@@ -146,7 +150,7 @@ const ExperienceContent = styled.div<{ screenType: string }>`
     	min-width: ${(props) => (props.screenType === 'Pc' ? '400px' :
 		(props.screenType === 'Tablet' ? '400px' : '300px')
 	)};
-		max-width: ${(props) => (props.screenType === 'Pc' ? '600px' :
+		max-width: ${(props) => (props.screenType === 'Pc' ? '650px' :
 		(props.screenType === 'Tablet' ? '450px' : '400px')
 	)};
    		word-wrap: break-word;

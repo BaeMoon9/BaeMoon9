@@ -36,9 +36,9 @@ function About() {
 					About Me
 				</Title>
 				<Content>
-					안녕하세요 프론트엔드 개발자 배문규입니다.<br />
-					현재 대학교 학과에서 조교로 근무하고 있습니다.<br />
-					배우는게 즐겁고 내것으로 만드는일이 행복한 신입 개발자 입니다.<br />
+					안녕하세요 신입 프론트엔드 개발자 배문규입니다.<br />
+					배우고 성장할 수 있다는것에 늘 감사하고 행복한 개발자 입니다.<br />
+					아직 많이 부족하기에 끈기있게 더 노력하고 성장해서 제 주변에 도움이 되고싶습니다.<br />
 					
 				</Content>
 			</TitleContent>
@@ -75,7 +75,6 @@ const Container = styled.div<{screenType : string}>`
 
 const TitleContent = styled.div<{screenType : string}>`
 	flex-direction: row;
-	
 	flex-wrap: wrap;
 	min-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
 		(props.screenType === 'Tablet' ? '400px' : '400px')
@@ -89,12 +88,12 @@ const TitleContent = styled.div<{screenType : string}>`
 
 const ContactContent = styled.div<{screenType : string}>`
 	flex-direction: row;
-	
-	min-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
-		(props.screenType === 'Tablet' ? '400px' : '400px')
+	margin-left: 10px;
+	min-width: ${(props) => (props.screenType === 'Pc' ? '540px' :
+		(props.screenType === 'Tablet' ? '390px' : '390px')
 	)};
-	max-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
-		(props.screenType === 'Tablet' ? '400px' : '400px')
+	max-width: ${(props) => (props.screenType === 'Pc' ? '540px' :
+		(props.screenType === 'Tablet' ? '390px' : '390px')
 	)};
 	
 	

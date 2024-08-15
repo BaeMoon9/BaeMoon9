@@ -12,8 +12,8 @@ function Education () {
             <SkillContent screenType={screenType}>
             <Title>Education</Title>
             <Content>
-                <ContentLi>2018.03 ~ 2023.02 영남이공대학교 컴퓨터정보과</ContentLi>
-                <ContentLi>2023.03 ~ 2024.02 영남이공대학교 소프트웨어콘텐츠학과</ContentLi>
+                {/* <ContentLi>2018.03 ~ 2023.02 영남이공대학교 컴퓨터정보과</ContentLi> */}
+                <ContentLi>2018.03 ~ 2024.02 영남이공대학교 소프트웨어콘텐츠학과 학사</ContentLi>
             </Content>
             </SkillContent>
         </Container>
