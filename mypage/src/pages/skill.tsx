@@ -25,9 +25,8 @@ const Container = styled.div<{screenType : string}>`
 	display: flex;
 	flex-direction: column;
 	min-width: ${(props) => (props.screenType === 'Pc' ? '1100px' :
-		(props.screenType === 'Tablet' ? '600px' : '400px')
+		(props.screenType === 'Tablet' ? '650px' : '400px')
 	)};
-    
 `
 
 const SkillContent = styled.div<{screenType : string}>`
@@ -37,8 +36,8 @@ const SkillContent = styled.div<{screenType : string}>`
 	min-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
-	max-width: ${(props) => (props.screenType === 'Pc' ? '550px' :
-		(props.screenType === 'Tablet' ? '400px' : '400px')
+	max-width: ${(props) => (props.screenType === 'Pc' ? '1050px' :
+		(props.screenType === 'Tablet' ? '700px' : '400px')
 	)};
 	
 	

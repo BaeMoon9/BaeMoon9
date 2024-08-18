@@ -26,7 +26,8 @@ function Etc () {
 			date: "2023.03~",
 			text: (
 				<>
-					현재 대학교 내 학과 소속 조교로 근무하고 있습니다.
+					현재 대학교 내 학과 소속 조교로 근무하고 있습니다.<br />
+					학과 강의실의 pc 및 장비들을 관리하고 있으며 교수님및 재학생들과 소통하며 학과 환경 개선에 신경쓰고 있습니다.
 				</>
 			)
 		},
@@ -67,11 +68,8 @@ const SkillContent = styled.div<{ screenType: string }>`
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
 	max-width: ${(props) => (props.screenType === 'Pc' ? '1050px' :
-		(props.screenType === 'Tablet' ? '660px' : '400px')
+		(props.screenType === 'Tablet' ? '700px' : '400px')
 	)};
-	
-	
-	
 `
 
 const Title = styled.h2`
@@ -93,19 +91,18 @@ const MyExperience = styled.div`
 		flex-wrap: wrap;
 		margin-top: 5px;
 		margin-bottom: 20px;
-		
 `
 
 const ExperienceTitle = styled.div<{ screenType: string }>`
-    min-width: ${(props) => (props.screenType === 'Pc' ? '230px' :
-		(props.screenType === 'Tablet' ? '180px' : '160px')
+    min-width: ${(props) => (props.screenType === 'Pc' ? '260px' :
+		(props.screenType === 'Tablet' ? '250px' : '160px')
 	)};
-	max-width: ${(props) => (props.screenType === 'Pc' ? '250px' :
-		(props.screenType === 'Tablet' ? '200px' : '200px')
+	max-width: ${(props) => (props.screenType === 'Pc' ? '270px' :
+		(props.screenType === 'Tablet' ? '250px' : '200px')
 	)}
 	margin-right: 10px;
-	
-
+	margin-bottom: 15px;
+	font-size: 1.13em;
 `
 
 const ExperienceContent = styled.div<{ screenType: string }>`
@@ -116,8 +113,6 @@ const ExperienceContent = styled.div<{ screenType: string }>`
 		(props.screenType === 'Tablet' ? '450px' : '400px')
 	)};
    		word-wrap: break-word;
-			
-
 `
 
 export default Etc;

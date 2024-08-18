@@ -44,8 +44,9 @@ function Experience() {
 			text: (
 				<>
 					대학교 학과 내 노트북을 재학생에게 대여 및 관리하는 페이지 입니다.< br/>
-					React 기반 웹 페이지로 Nodejs, MariaDB를 이용하여 노트북의 정보를 관리하고 있습니다.<br />
-					개인적으로 반응형 css의 부재와 redux를 이용한 state관리가 없다는것이 아쉬웠습니다.< br/>
+					평소에 수기형식으로 관리를 하던 노트북 정보를 좀더 쉽고 안전하게 관리하기 위해 만들게 되었습니다.<br />
+					React 기반 웹 페이지로 Nodejs, MariaDB를 이용하여 노트북의 정보를 관리하고 있습니다.
+					개인적으로 반응형 css의 부재와 redux를 이용한 state 관리가 없다는것이 아쉬웠습니다.< br/>
 					첫 개인 프로젝트인만큼 부족함과 개선해야할 점이 많은 프로젝트입니다.<br />
 					<a href="https://github.com/BaeMoon9/laptop"
 					style={{ color: "lightslategray"}}
@@ -59,7 +60,7 @@ function Experience() {
 			text: (
 				<>
 					지금 현재 페이지인 포트폴리오 페이지 입니다.< br/>
-					Typescript, React, styled-component를 사용하였습니다.<br />
+					Typescript, React, styled-component를 이용하여 노트북 대여 프로젝트에 없었던 반응형 스타일을 추가하게 되었습니다.<br />
 					
 					<a href="https://github.com/BaeMoon9/BaeMoon9"
 					style={{ color: "lightslategray"}}
@@ -105,7 +106,7 @@ const SkillContent = styled.div<{ screenType: string }>`
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
 	max-width: ${(props) => (props.screenType === 'Pc' ? '1050px' :
-		(props.screenType === 'Tablet' ? '660px' : '400px')
+		(props.screenType === 'Tablet' ? '700px' : '400px')
 	)};
 	
 	
@@ -135,14 +136,15 @@ const MyExperience = styled.div`
 `
 
 const ExperienceTitle = styled.div<{ screenType: string }>`
-    min-width: ${(props) => (props.screenType === 'Pc' ? '230px' :
-		(props.screenType === 'Tablet' ? '180px' : '160px')
+    min-width: ${(props) => (props.screenType === 'Pc' ? '260px' :
+		(props.screenType === 'Tablet' ? '250px' : '160px')
 	)};
-	max-width: ${(props) => (props.screenType === 'Pc' ? '250px' :
-		(props.screenType === 'Tablet' ? '200px' : '200px')
+	max-width: ${(props) => (props.screenType === 'Pc' ? '270px' :
+		(props.screenType === 'Tablet' ? '250px' : '200px')
 	)}
 	margin-right: 10px;
-	
+	margin-bottom: 15px;
+	font-size: 1.13em;
 
 `
 
