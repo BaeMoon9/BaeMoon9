@@ -81,10 +81,10 @@ const MyExperience = styled.div`
 `
 
 const ExperienceTitle = styled.div<{ screenType: string }>`
-    min-width: ${(props) => (props.screenType === 'Pc' ? '260px' :
+    min-width: ${(props) => (props.screenType === 'Pc' ? '300px' :
 		(props.screenType === 'Tablet' ? '250px' : '160px')
 	)};
-	max-width: ${(props) => (props.screenType === 'Pc' ? '270px' :
+	max-width: ${(props) => (props.screenType === 'Pc' ? '320px' :
 		(props.screenType === 'Tablet' ? '250px' : '200px')
 	)}
 	margin-right: 10px;

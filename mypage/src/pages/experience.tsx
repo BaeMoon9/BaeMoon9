@@ -106,10 +106,8 @@ const SkillContent = styled.div<{ screenType: string }>`
 		(props.screenType === 'Tablet' ? '400px' : '400px')
 	)};
 	max-width: ${(props) => (props.screenType === 'Pc' ? '1050px' :
-		(props.screenType === 'Tablet' ? '700px' : '400px')
+		(props.screenType === 'Tablet' ? '750px' : '400px')
 	)};
-	
-	
 	
 `
 
@@ -136,16 +134,15 @@ const MyExperience = styled.div`
 `
 
 const ExperienceTitle = styled.div<{ screenType: string }>`
-    min-width: ${(props) => (props.screenType === 'Pc' ? '260px' :
+    min-width: ${(props) => (props.screenType === 'Pc' ? '300px' :
 		(props.screenType === 'Tablet' ? '250px' : '160px')
 	)};
-	max-width: ${(props) => (props.screenType === 'Pc' ? '270px' :
+	max-width: ${(props) => (props.screenType === 'Pc' ? '320px' :
 		(props.screenType === 'Tablet' ? '250px' : '200px')
 	)}
 	margin-right: 10px;
 	margin-bottom: 15px;
-	font-size: 1.13em;
-
+	font-size: 1.12em;
 `
 
 const ExperienceContent = styled.div<{ screenType: string }>`
@@ -156,8 +153,6 @@ const ExperienceContent = styled.div<{ screenType: string }>`
 		(props.screenType === 'Tablet' ? '450px' : '400px')
 	)};
    		word-wrap: break-word;
-			
-
 `
 
 export default Experience;
