@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BaeMoon9/static/css/main.f855e6bc.css",
-    "main.js": "/BaeMoon9/static/js/main.15614474.js",
+    "main.js": "/BaeMoon9/static/js/main.006a4659.js",
     "static/js/453.01c969ee.chunk.js": "/BaeMoon9/static/js/453.01c969ee.chunk.js",
     "index.html": "/BaeMoon9/index.html",
     "main.f855e6bc.css.map": "/BaeMoon9/static/css/main.f855e6bc.css.map",
-    "main.15614474.js.map": "/BaeMoon9/static/js/main.15614474.js.map",
+    "main.006a4659.js.map": "/BaeMoon9/static/js/main.006a4659.js.map",
     "453.01c969ee.chunk.js.map": "/BaeMoon9/static/js/453.01c969ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.15614474.js"
+    "static/js/main.006a4659.js"
   ]
 }
