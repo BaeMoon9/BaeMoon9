@@ -39,7 +39,7 @@ function Experience() {
 			),
 		},
 		{
-			name: "노트북 대여",
+			name: "노트북 대여 및 관리 페이지",
 			date: "2024.03~2024.05",
 			text: (
 				<>
