@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BaeMoon9/static/css/main.f855e6bc.css",
-    "main.js": "/BaeMoon9/static/js/main.ad541d97.js",
-    "static/js/453.01c969ee.chunk.js": "/BaeMoon9/static/js/453.01c969ee.chunk.js",
-    "index.html": "/BaeMoon9/index.html",
-    "main.f855e6bc.css.map": "/BaeMoon9/static/css/main.f855e6bc.css.map",
-    "main.ad541d97.js.map": "/BaeMoon9/static/js/main.ad541d97.js.map",
-    "453.01c969ee.chunk.js.map": "/BaeMoon9/static/js/453.01c969ee.chunk.js.map"
+    "main.css": "/static/css/main.f855e6bc.css",
+    "main.js": "/static/js/main.e611d10c.js",
+    "static/js/453.01c969ee.chunk.js": "/static/js/453.01c969ee.chunk.js",
+    "index.html": "/index.html",
+    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
+    "main.e611d10c.js.map": "/static/js/main.e611d10c.js.map",
+    "453.01c969ee.chunk.js.map": "/static/js/453.01c969ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.ad541d97.js"
+    "static/js/main.e611d10c.js"
   ]
 }
