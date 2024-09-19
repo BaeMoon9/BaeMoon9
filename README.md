@@ -13,6 +13,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-안녕하세요 프론트엔드 개발자 배문규 입니다.
+안녕하세요 신입 개발자 배문규 입니다.
 > cheer up!   
 > Portfolio -> https://baemoon9.github.io/BaeMoon9/
