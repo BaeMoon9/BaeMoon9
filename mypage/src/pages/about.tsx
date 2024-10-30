@@ -50,7 +50,11 @@ function About() {
 					{Contacts.map((contact, idx) => (
           <div key={idx}>
             <ContactName>{contact.name}</ContactName>&nbsp;
-            <a target='_blank' href={contact.link} style={{ color: "lightslategray"}}>{contact.text || contact.link}</a>
+            <a target='_blank' href={contact.link} 
+						style={{ color: "lightslategray"}}
+						rel="noreferrer noopener">
+							{contact.text || contact.link}
+							</a>
           </div>
         ))}
 				</Content>
