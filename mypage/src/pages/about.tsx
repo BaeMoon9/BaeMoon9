@@ -52,7 +52,7 @@ function About() {
             <ContactName>{contact.name}</ContactName>&nbsp;
             <a target='_blank' href={contact.link} 
 						style={{ color: "lightslategray"}}
-						rel="noreferrer noopener">
+						rel="noreferrer noopener"> {/* target = '_blank' 의 보안취약점을 보완하기 위함 */}
 							{contact.text || contact.link}
 							</a>
           </div>

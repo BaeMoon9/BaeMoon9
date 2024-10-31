@@ -18,9 +18,9 @@ function Experience() {
 				<>
 					독서 장려 애플리케이션 '읽기장' 프로젝트로 장려상을 수상했습니다. <br />
 					프론트엔드 부분을 맡아 React-Native로 UI를 제작하였습니다.<br />
-					<a href="https://www.youtube.com/watch?v=8rDKsbk1xuQ&list=PLwWUOs74Y2rJxDaK2EeHyXxZjFszMfPXe&index=29"
+					<a target='_blank' href="https://www.youtube.com/watch?v=8rDKsbk1xuQ&list=PLwWUOs74Y2rJxDaK2EeHyXxZjFszMfPXe&index=29"
 						style={{ color: "lightslategray" }}
-					>('읽기장' 소개영상)</a>
+						rel="noreferrer noopener">('읽기장' 소개영상)</a>
 				</>
 			)
 		},
@@ -32,9 +32,9 @@ function Experience() {
 					좋은 기회로 태국 방콕 기술 전시회에 참여하였습니다.< br/>
 					음식물 상태 확인이 가능한 '셀프 반찬통' 프로젝트에 참여하였습니다.<br />
 					프론트엔드 부분을 맡아 React-Native로 UI를 제작하였습니다.<br />
-					<a href="https://www.nspna.com/country/?mode=view&newsid=622828"
+					<a target='_blank' href="https://www.nspna.com/country/?mode=view&newsid=622828"
 					style={{ color: "lightslategray" }}
-					>(전시회 체험수기 발표회)</a>
+					rel="noreferrer noopener">(전시회 체험수기 발표회)</a>
 				</>
 			),
 		},
@@ -48,9 +48,9 @@ function Experience() {
 					React 기반 웹 페이지로 Nodejs, MariaDB를 이용하여 노트북의 정보를 관리하고 있습니다.
 					개인적으로 반응형 css의 부재와 redux를 이용한 state 관리가 없다는것이 아쉬웠습니다.< br/>
 					첫 개인 프로젝트인만큼 부족함과 개선해야할 점이 많은 프로젝트입니다.<br />
-					<a href="https://github.com/BaeMoon9/laptop"
+					<a target='_blank' href="https://github.com/BaeMoon9/laptop"
 					style={{ color: "lightslategray"}}
-					>(Github - laptop)</a>
+					rel="noreferrer noopener">(Github - laptop)</a>
 				</>
 			),
 		},
@@ -62,9 +62,9 @@ function Experience() {
 					지금 현재 페이지인 포트폴리오 페이지 입니다.< br/>
 					Typescript, React, styled-component를 이용하여 노트북 대여 프로젝트에 없었던 반응형 스타일을 추가하게 되었습니다.<br />
 					
-					<a href="https://github.com/BaeMoon9/BaeMoon9"
+					<a target='_blank' href="https://github.com/BaeMoon9/BaeMoon9"
 					style={{ color: "lightslategray"}}
-					>(Github - BaeMoon9)</a>
+					rel="noreferrer noopener">(Github - BaeMoon9)</a>
 				</>
 			),
 		}
