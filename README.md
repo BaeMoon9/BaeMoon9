@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 -->
 안녕하세요 신입 개발자 배문규 입니다.
 > cheer up!   
-> Portfolio ==> [click](https://baemoon9.github.io/BaeMoon9/){: target="_blank"}
+> Portfolio ==> [click](https://baemoon9.github.io/BaeMoon9/)
