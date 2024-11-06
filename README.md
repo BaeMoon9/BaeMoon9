@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 -->
 안녕하세요 신입 개발자 배문규 입니다.
 > cheer up!   
-> Portfolio -> <a href="https://baemoon9.github.io/BaeMoon9/" target="blank">
+> Portfolio -> <a href="https://baemoon9.github.io/BaeMoon9/" target="_blank">Click</a>
